@@ -1,7 +1,8 @@
 vocode :: asr on a socket
 ------
+first open up a socket listener
 <pre>
-  run nc -l 2222
+  nc -l 2222
 </pre>
 then start up vocode in a diffrent terminal
 <pre>
